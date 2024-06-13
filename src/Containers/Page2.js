@@ -1,4 +1,3 @@
-
 import React from 'react';
 import StatusCard from '../Components/StatusCard/StatusCard';
 import Orderstatus from '../Components/Orderstatus';
@@ -113,3 +112,67 @@ function Page2() {
 }
 
 export default Page2;
+// import React from 'react';
+// import { useNavigate } from 'react-router-dom';
+// import StatusCard from '../Components/StatusCard/StatusCard';
+// import Orderstatus from '../Components/Orderstatus';
+// import { Grid } from '@mui/material';
+// import ContactInformation from '../Components/ContactInformation/ContactInformation';
+// import './Page2.css';
+
+// function Page2() {
+//     const navigate = useNavigate();
+
+//     const handleDetailsClick = () => {
+//         navigate('/page3');
+//     };
+
+//     return (
+//         <div className="page-container">
+//             <div>
+//                 <p className="heading">Zippyy Tracking</p>
+//             </div>
+
+//             <div className="inner-container">
+//                 <div className="tracking-status-container">
+//                     <div className="tracking-status-header">
+//                         <p className="tracking-status-title">Tracking Status</p>
+//                         <p className="tracking-status-subtitle">Quickly check your tracking status below or click on details see more info.</p>
+//                     </div>
+//                     <StatusCard trackingId="2203331212" status="Shipment info shared" />
+//                     <StatusCard trackingId="2203331213" status="Tracking not generated" />
+//                     <Grid container className="tracking-card">
+//                         <Grid item xs={4}>
+//                             <p className="tracking-id">Tracking id : <span>2203331213</span></p>
+//                         </Grid>
+//                         <Grid item xs={5.5}>
+//                             <p className="error-message">Sorry! Invalid order-id</p>
+//                         </Grid>
+//                         <Grid item xs={2.5}>
+//                             <button className="details-button" onClick={handleDetailsClick}>
+//                                 Details&nbsp;&nbsp;&gt;
+//                             </button>
+//                         </Grid>
+//                     </Grid>
+//                     <a href="http://localhost:3000/" className="help-link">Need help?</a>
+//                 </div>
+//                 <div className="order-status-container">
+//                     <Orderstatus />
+//                 </div>
+//             </div>
+
+//             <div className="button-container">
+//                 <div className="back-button-container">
+//                     <button className="back-button">Back</button>
+//                 </div>
+//                 <ContactInformation width="50%" />
+//             </div>
+
+//             <div className="powered-by-container">
+//                 <p className="powered-by-text">Powered by Zippyy</p>
+//             </div>
+//         </div>
+//     );
+// }
+
+// export default Page2;

@@ -1,0 +1,154 @@
+/* .page-container {
+    width: 100%;
+    background-color: #F5F8F8;
+    border: 1px solid white;
+}
+
+.inner-container {
+    margin: 1%;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 2%;
+}
+
+.heading {
+    margin-top: 2%;
+    margin-left: 30px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.tracking-status-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tracking-status-header {
+    margin-bottom: 10%;
+}
+
+.tracking-status-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121114;
+    margin-bottom: 1%;
+}
+
+.tracking-status-subtitle {
+    font-family: Poppins;
+    color: #5F5A6B;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.tracking-card {
+    border-radius: 6px;
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 1px solid #D9D9D9;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tracking-id {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #121114;
+}
+
+.error-message {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #D54029;
+    padding-left: 1%;
+}
+
+.details-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #D54029;
+    color: #FFFFFF;
+}
+
+.help-link {
+    color: #0C77FF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #0C77FF;
+}
+
+.order-status-container {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.back-button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.back-button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 1%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #121114;
+    text-align: center;
+    width: 240px;
+    height: 36px;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.powered-by-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.powered-by-text {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #121114;
+    margin-top: 5px;
+} */
