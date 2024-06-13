@@ -101,7 +101,7 @@ function Page1() {
   const navigate = useNavigate();
 
   const handleTrack = () => {
-    navigate('/page2');
+    navigate('/track_US/page2');
   };
 
   return (

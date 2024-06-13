@@ -9,7 +9,7 @@ function Page2() {
     const navigate = useNavigate();
 
     const handleDetailsClick = () => {
-        navigate('/page3');
+        navigate('/track_US/page3');
     };
 
     return (
